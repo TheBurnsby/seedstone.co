@@ -1,0 +1,125 @@
+:root {
+
+    --white: #eeeef0;
+    --black: #3e3e3e;
+    --red: #ff5ea1;
+    --green: #b2e244;
+
+    scroll-behavior: smooth;
+}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+    color: inherit;
+	font-size: 16px;
+	box-sizing: border-box;
+    word-break: break-word;
+    font-family: 'Barlow Condensed', sans-serif;
+    transition:
+        background
+        ease-in-out 200ms;
+}
+body, html {
+	overflow-x: hidden;
+}
+body {
+    background-color: var(--white);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-weight: 300;
+    color: inherit;
+    font-size: 5rem;
+}
+h2 {
+    color: inherit;
+    font-size: 3rem;
+    font-weight: 800;
+}
+h3 {
+    color: inherit;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+h4 {
+    color: inherit;
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+}
+p, li {
+    line-height: 1.4rem;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 1rem auto;
+}
+em {
+    font-size: inherit;
+    font-weight: inherit;
+}
+img {
+    width: 100%;
+}
+form {
+    width: 100%;
+    padding: 1rem;
+    border: 3px solid var(--black);
+}
+input {
+    width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav > div {
+    padding: 1rem;
+}
+nav > div a {
+    padding: 0.6rem;
+    text-decoration: none;
+}
+nav > div a:hover {
+    border-radius: 6px;
+    background-color: rgba(255,94,161,0.1);
+}
+.main {
+    color: var(--red);
+    height: 90vh;
+    width: 100vw;
+    padding: 6vh 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap {
+    margin: auto;
+    padding: 6vh 3vw;
+    max-width: 1440px;
+}
+.emphasize {
+    padding: 0.3rem;
+    font-weight: bold;
+    color: var(--white);
+}
+.red {
+    padding: 1rem;
+    color: var(--white);
+    background-color: var(--red);
+}
+.green {
+    padding: 1rem;
+    color: var(--white);
+    background-color: var(--green);
+}
+.black {
+    padding: 1rem;
+    color: var(--white);
+    background-color: var(--black);
+}
